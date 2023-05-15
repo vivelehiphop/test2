@@ -4,11 +4,6 @@ searchForm.addEventListener('submit', function(event) {
   const villeDepart = document.getElementById('ville-depart').value;
   const villeArrivee = document.getElementById('ville-arrivee').value;
 
-  geocoder(villeDepart, (departCoordinates) => {
-    geocoder(villeArrivee, (arriveeCoordinates) => {
-      rechercherItineraires(departCoordinates, arriveeCoordinates);
-    });
-  });
 });
 
 const correspondanceCO2 = {

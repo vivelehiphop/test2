@@ -24,7 +24,7 @@ const correspondanceCO2 = {
 const axios = require('axios');
 
 // Votre clé d'API OpenAI
-const apiKey = 'VOTRE_API_KEY_OPENAI';
+const apiKey = 'sk-...o2Lc';
 const apiUrl = 'https://api.openai.com/v1/engines/davinci-codex/completions';
 
 // Fonction pour rechercher les itinéraires
