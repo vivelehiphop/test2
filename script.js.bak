@@ -3,6 +3,7 @@ searchForm.addEventListener('submit', function(event) {
   event.preventDefault();
   const villeDepart = document.getElementById('ville-depart').value;
   const villeArrivee = document.getElementById('ville-arrivee').value;
+rechercherItineraires(villeDepart, villeArrivee); // Appel de la fonction rechercherItineraires
 
 });
 
@@ -47,6 +48,9 @@ async function rechercherItineraires(villeDepart, villeArrivee) {
     console.error('Une erreur s\'est produite lors de l\'appel à l\'API OpenAI:', error);
   }
 }
+
+
+
 
 // Fonction pour afficher les itinéraires dans le tableau de l'interface
 function afficherItineraires(itineraires) {
