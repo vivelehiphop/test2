@@ -20,7 +20,6 @@ const correspondanceCO2 = {
 
 import axios from 'axios';
 
-const axios = require('axios');
 
 // Votre clé d'API OpenAI
 const apiKey = 'sk-...o2Lc';
