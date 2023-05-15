@@ -48,6 +48,17 @@ async function rechercherItineraires(villeDepart, villeArrivee) {
   }
 }
 
+
+const searchForm = document.getElementById('search-form');
+searchForm.addEventListener('submit', function(event) {
+  event.preventDefault();
+  const villeDepart = document.getElementById('ville-depart').value;
+  const villeArrivee = document.getElementById('ville-arrivee').value;
+  rechercherItineraires(villeDepart, villeArrivee); // Appel de la fonction rechercherItineraires
+});
+
+
+
 // Fonction pour afficher les itinéraires dans le tableau de l'interface
 function afficherItineraires(itineraires) {
   const resultatContainer = document.getElementById('resultats');

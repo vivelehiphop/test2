@@ -18,7 +18,7 @@ const correspondanceCO2 = {
 };
 
 
-import axios from 'axios';
+import axios from 'https://cdn.skypack.dev/axios@0.21.4';
 
 
 // Votre clé d'API OpenAI
