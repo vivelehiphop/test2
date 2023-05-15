@@ -6,6 +6,8 @@ searchForm.addEventListener('submit', function(event) {
 
 });
 
+
+
 const correspondanceCO2 = {
   'DRIVING': 0.12,           // Poids en CO2 par kilomètre pour la voiture
   'BICYCLING': 0.02,         // Poids en CO2 par kilomètre pour le vélo
@@ -15,6 +17,8 @@ const correspondanceCO2 = {
   'FERRY': 0.2            // Poids en CO2 par kilomètre pour l'avion
 };
 
+
+import axios from 'axios';
 
 const axios = require('axios');
 
