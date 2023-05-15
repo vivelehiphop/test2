@@ -1,0 +1,144 @@
+/* Réinitialisation des styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #800000;
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:hover,
+select:hover {
+  border-color: #4285f4;
+}
+
+button {
+  background-color: #0F1E4D;
+  color: #fff;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #001A38;
+}
+
+.resultat {
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.resultat h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.itineraire th {
+  text-align: left;
+  font-weight: bold;
+  padding-right: 20px;
+}
+
+.itineraire td {
+  padding-bottom: 5px;
+}
+
+
+
+header {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 50px; /* Ajustez la largeur selon vos besoins */
+  height: 50px; /* Ajustez la hauteur selon vos besoins */
+  margin-right: 10px; /* Ajoutez une marge à droite pour l'espace */
+}
+
+#search-form {
+  display: flex;
+  align-items: center;
+}
+
+#ville-depart,
+#ville-arrivee {
+  margin-right: 10px; /* Ajoutez une marge entre les zones de saisie */
+}
+
+#search-form input[type="submit"] {
+  background-color: #0F1E4D; /* Couleur du fond du bouton */
+  color: #fff; /* Couleur du texte du bouton */
+  padding: 8px 16px; /* Ajoutez un peu de rembourrage */
+  border: none; /* Supprimez la bordure par défaut */
+  cursor: pointer; /* Changez le curseur au survol */
+}
+
+/* Ajoutez ces styles si vous souhaitez aligner le bouton au bas des zones de saisie */
+#search-form {
+  align-items: baseline;
+}
+
+/* Ajoutez ces règles CSS à votre fichier style.css */
+
+.form-container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.input-field {
+  flex: 1;
+}
+
+.submit-button {
+  margin-left: 10px;
+}
