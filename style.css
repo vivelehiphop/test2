@@ -55,7 +55,7 @@ select:hover {
 }
 
 button {
-  background-color: #0F1E4D;
+  background-color: red;
   color: #fff;
   padding: 12px 20px;
   border: none;
