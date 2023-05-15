@@ -16,7 +16,7 @@ import axios from 'https://cdn.skypack.dev/axios@0.21.4';
 
 
 // Votre clé d'API OpenAI
-const apiKey = 'sk-...o2Lc';
+const apiKey = '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';
 const apiUrl = 'https://api.openai.com/v1/engines/davinci-codex/completions';
 
 // Fonction pour rechercher les itinéraires
